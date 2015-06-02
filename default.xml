@@ -30,7 +30,6 @@
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
-  <project path="system/core" name="system_core" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
   <project path="system/core" name="system_core" remote="tr" />
 <!-- End Radium Repos -->
