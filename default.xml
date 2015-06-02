@@ -22,7 +22,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Team-Radium/build" remote="tr" >
+  <project path="build" name="build" remote="tr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
