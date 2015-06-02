@@ -11,7 +11,7 @@
            review="review.cyanogenmod.org" />
 
   <remote  name="tr"
-	   fetch="git://github.com/Team-Radium/"
+	   fetch="https://github.com/Team-Radium/"
 	   revision="refs/heads/5.1" />			  
 
   <remote  name="private"
@@ -31,6 +31,7 @@
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
+  <project path="system/core" name="system_core" remote="tr" />
 <!-- End Radium Repos -->
   
 
