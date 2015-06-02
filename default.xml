@@ -26,12 +26,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-<!-- Start of Radium Repos -->
+  <!-- Start of Radium Repos -->
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
+  <project path="system/core" name="system_core" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
-<!-- End Radium Repos -->
+  <!-- End Radium Repos -->
   
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -575,7 +576,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
