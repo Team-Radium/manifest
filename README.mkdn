@@ -16,7 +16,12 @@ Then to sync up:
 
     repo sync
 
-Then to build:
+Then to setup build environment:
     
     . build/envsetup.sh
-    brunch (your device)
+    lunch
+    (choose your device by number)
+    
+Then to build:
+
+    make radium -j5
