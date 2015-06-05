@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the Radium trees, use a command like this:
 
-    repo init -u git://github.com/Team-Radium/manifest.git -b 5.1
+    repo init -u https://github.com/Team-Radium/manifest.git -b 5.1
 
 Then to sync up:
 
@@ -24,4 +24,10 @@ Then to setup build environment:
     
 Then to build:
 
-    make radium -j5
+    make radium -j8
+    
+That's if you have an octa core amd CPU, or a quad core Intel with hyperthreading
+If you don't know, just run
+```
+    mka radium
+```
