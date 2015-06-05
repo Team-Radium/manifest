@@ -36,6 +36,7 @@
   </project>
 
   <!-- Start of Radium Repos -->
+  <project path="art" name="art" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
