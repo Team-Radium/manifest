@@ -37,11 +37,12 @@
 
   <!-- Start of Radium Repos -->
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
+  <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
   <project path="system/core" name="system_core" remote="tr" />
-<!-- End Radium Repos -->
+  <!-- End Radium Repos -->
   
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -457,7 +458,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
