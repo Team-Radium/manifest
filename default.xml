@@ -36,7 +36,6 @@
   </project>
 
   <!-- Start of Radium Repos -->
-  <project path="art" name="art" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
@@ -47,6 +46,7 @@
   
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" /> 
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
