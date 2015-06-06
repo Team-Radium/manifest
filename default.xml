@@ -38,7 +38,7 @@
   <!-- Start of Radium Repos -->
   <project path="development" name="development" remote ="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
-  <project path="frameworks/native" name="frameworks/native" remote="tr" />
+  <project path="frameworks/native" name="frameworks_native" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
