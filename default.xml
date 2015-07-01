@@ -40,9 +40,11 @@
   </project>
 
   <!-- Start of Radium Repos -->
+  <project path="bionic" name="bionic" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
+  <project path="packages/apps/RadiumOTA" name="packages_apps_RadiumOTA" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
   <project path="system/core" name="system_core" remote="tr" />
@@ -51,7 +53,6 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" /> 
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -497,7 +498,6 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
-  <project path="packages/apps/RadiumOTA" name="packages_apps_RadiumOTA" remote="tr" revision="5.1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
