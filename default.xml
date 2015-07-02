@@ -41,6 +41,7 @@
 
   <!-- Start of Radium Repos -->
   <project path="bionic" name="bionic" remote="tr" />
+  <project path="external/wpa_supplicant_8" name="arter97/android_external_wpa_supplicant_8" remote="github" revision="cm-12.0" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
@@ -356,7 +357,6 @@
   <project path="external/whispersystems/libtextsecure" name="CyanogenMod/android_external_whispersystems_libtextsecure-java" />
   <project path="external/whispersystems/libaxolotl" name="CyanogenMod/android_external_whispersystems_libaxolotl-android" />
   <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
