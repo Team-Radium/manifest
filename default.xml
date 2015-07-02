@@ -41,7 +41,7 @@
 
   <!-- Start of Radium Repos -->
   <project path="bionic" name="bionic" remote="tr" />
-  <project path="external/wpa_supplicant_8" name="arter97/android_external_wpa_supplicant_8" remote="github" revision="cm-12.0" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
