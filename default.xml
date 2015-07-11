@@ -44,6 +44,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="tr" />
   <project path="frameworks/av" name="frameworks_av" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
+  <project path="frameworks/native" name="frameworks_native" remote="tr" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/RadiumOTA" name="packages_apps_RadiumOTA" remote="tr" />
@@ -373,7 +374,6 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
