@@ -12,7 +12,7 @@
 
   <remote  name="uber"
 	   fetch="https://bitbucket.org/UBERTC/"
-	   revision="master" />	  
+	   revision="refs/heads/master" />	  
 
   <remote  name="tr"
 	   fetch="https://github.com/Team-Radium/"
@@ -23,12 +23,12 @@
            
   <remote  name="cm"
            review="http://review.cyanogenmod.org"
-           fetch="git://github.com/CyanogenMod"
-           revision="cm-12.1" />
+           fetch="https://github.com/CyanogenMod"
+           revision="refs/heads/cm-12.1" />
 
   <remote  name="tm"
-           fetch="git://github.com/TheMuppets"
-           revision="cm-12.1" />
+           fetch="https://github.com/TheMuppets"
+           revision="refs/heads/cm-12.1" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
