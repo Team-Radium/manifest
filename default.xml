@@ -12,7 +12,7 @@
 
   <remote  name="uber"
 	   fetch="https://bitbucket.org/UBERTC/"
-	   revision="refs/heads/master" />	  
+	   revision="master" />	  
 
   <remote  name="tr"
 	   fetch="https://github.com/Team-Radium/"
