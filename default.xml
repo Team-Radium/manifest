@@ -41,6 +41,7 @@
 
   <!-- Start of Radium Repos -->
   <project path="bionic" name="bionic" remote="tr" />
+  <project path="external/speex" name="external_speex" remote="tr" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="tr" />
   <project path="frameworks/av" name="frameworks_av" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
@@ -329,7 +330,6 @@
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
-  <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
