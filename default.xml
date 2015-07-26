@@ -47,6 +47,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="tr" />
   <project path="frameworks/base" name="frameworks_base" remote="tr" />
   <project path="frameworks/native" name="frameworks_native" remote="tr" />
+  <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="github" revision="lp5.1" />
   <project path="frameworks/webview" name="arter97/android_frameworks_webview"/>
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
