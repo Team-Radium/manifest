@@ -49,6 +49,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="tr" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" revision="lp5.1" />
   <project path="frameworks/webview" name="ResurrectionRemix/android_frameworks_webview" revision="cm-12.1" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="qcom,qcom_display" remote ="tr" revision="cm-12.1-caf-8960" />
   <project path="libcore" name="libcore" remote="tr" />
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" remote="github" revision="lollipop-caf" />
@@ -439,7 +440,6 @@
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8610" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8610" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
