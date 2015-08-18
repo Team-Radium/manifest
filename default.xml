@@ -54,7 +54,6 @@
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" remote="github" revision="lollipop-caf" />
   <project path="packages/apps/RadiumOTA" name="packages_apps_RadiumOTA" remote="tr" />
-  <project path="packages/apps/KernelAdiutor" name="packages_apps_KernelAdiutor" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
   <project path="system/core" name="system_core" remote="tr" />
