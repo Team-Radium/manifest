@@ -16,7 +16,11 @@
 
   <remote  name="tr"
 	   fetch="https://github.com/Team-Radium/"
-	   revision="refs/heads/5.1" />			  
+	   revision="refs/heads/5.1" />
+	   
+  <remote  name="r-d"
+  	   fetch="https://github.com/Radium-Devices"
+  	   revision="5.1" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
