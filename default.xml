@@ -16,7 +16,7 @@
 
   <remote  name="tr"
 	   fetch="https://github.com/Team-Radium/"
-	   revision="refs/heads/5.1" />
+	   revision="5.1" />
 	   
   <remote  name="r-d"
   	   fetch="https://github.com/Radium-Devices"
@@ -28,11 +28,11 @@
   <remote  name="cm"
            review="http://review.cyanogenmod.org"
            fetch="https://github.com/CyanogenMod"
-           revision="refs/heads/cm-12.1" />
+           revision="cm-12.1" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets"
-           revision="refs/heads/cm-12.1" />
+           revision="cm-12.1" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
