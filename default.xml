@@ -63,6 +63,7 @@
   <project path="manifest" name="manifest" remote="tr" />
   <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" remote="github" revision="lollipop-caf" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="tr"/>
+  <project path="packages/apps/ContactsCommon" name="packages_apps_Contacts" remote="tr"/>
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="tr"/>
   <project path="packages/apps/RadiumOTA" name="packages_apps_RadiumOTA" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
