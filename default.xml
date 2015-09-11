@@ -69,7 +69,7 @@
   <project path="packages/apps/RadiumOTA" name="packages_apps_RadiumOTA" remote="tr" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tr" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="tr" revision="5.1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-sm" name="aarch64-4.9-sm" remote="bot" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-sm" name="aarch64-4.9-sm" remote="bot" revision="master" groups="notdefault,arm64"/>
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
   <project path="system/core" name="system_core" remote="tr" />
   <!-- End Radium Repos -->
