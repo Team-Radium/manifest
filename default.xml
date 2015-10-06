@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r23" />
+           revision="refs/tags/android-5.1.1_r24" />
 
   <remote  name="github"
            fetch=".."
@@ -41,7 +41,7 @@
   <remote  name="linaro"
            fetch="git://android.git.linaro.org"
            review="review.android.git.linaro.org"
-           revision="refs/tags/android-5.1.1_r23" />
+           revision="refs/tags/android-5.1.1_r24" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
