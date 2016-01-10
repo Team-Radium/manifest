@@ -11,11 +11,15 @@
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
 
+  <remote  name="tr"
+           fetch="https://github.com/Team-Radium"
+           revision="6.0" />
+
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="aospb" >
+  <project path="build" name="build" remote="tr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -497,8 +501,8 @@
 
   <project path="manifest" name="manifest" remote="aospb" />
 
-  <!-- New Additions for slim -->
-  <project path="vendor/aospb" name="vendor_aospb" remote="aospb" />
+  <!-- New Additions for Radium -->
+  <project path="vendor/radium" name="vendor_radium" remote="tr" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
