@@ -19,9 +19,13 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- Radium Repos start -->
   <project path="build" name="build" remote="tr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="vendor/radium" name="vendor_radium" remote="tr" />
+  <!-- Radium Repos end -->
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="art" remote="aospb"  />
   <project path="bionic" name="bionic" remote="aospb" />
@@ -499,10 +503,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="manifest" remote="aospb" />
-
-  <!-- New Additions for Radium -->
-  <project path="vendor/radium" name="vendor_radium" remote="tr" />
+  <project path="manifest" name="manifest" remote="tr" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
