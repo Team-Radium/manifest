@@ -23,6 +23,7 @@
   <project path="build" name="build" remote="tr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="system/core" name="system_core" remote="tr" />
   <project path="vendor/radium" name="vendor_radium" remote="tr" />
   <!-- Radium Repos end -->
 
